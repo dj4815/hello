@@ -1,9 +1,9 @@
 import React from "react";
-
+import Button2 from "./Button2";
 export default function Section2() {
   return (
-    <div className="container-2xl bg-slate-50 px-12 sm:px-32 xl:px-64 py-32 l:py-64">
-      <h1 className="text-6xl font-bold">I am Section 2.</h1>
+    <div className="container-2xl bg-slate-50 px-12 sm:px-32 xl:px-64 py-24 l:py-64">
+      <h1 className="text-6xl font-bold">I am Section Two.</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus
@@ -13,6 +13,7 @@ export default function Section2() {
         dolorem cupiditate officia nesciunt optio sunt assumenda voluptatibus
         eum? Inventore, maxime! Delectus odio placeat fuga.
       </p>
+      <Button2 />
     </div>
   );
 }

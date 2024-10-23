@@ -2,7 +2,7 @@ import React from "react";
 import Button2 from "./Button2";
 export default function Section2() {
   return (
-    <div className="container-2xl bg-slate-50 px-12 sm:px-32 xl:px-96 py-24 l:py-64">
+    <div className="container-2xl bg-slate-50 px-12 sm:px-32 xl:px-96 py-24 lg:py-48">
       <h1 className="text-6xl font-bold mb-4">I am Section Two.</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore

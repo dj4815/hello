@@ -5,9 +5,15 @@ export default function NavBar() {
   return (
     <>
       <ul className="flex justify-around xl:px-80 py-8 border-b-2">
-        <NavButton text="Projects" />
-        <NavButton text="Resume" />
-        <NavButton text="Contact" />
+        <li>
+          <NavButton text="Projects" />
+        </li>
+        <li>
+          <NavButton text="Resume" />
+        </li>
+        <li>
+          <NavButton text="Contact" />
+        </li>
       </ul>
     </>
   );

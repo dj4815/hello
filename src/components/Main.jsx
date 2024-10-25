@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
+import ButtonMain from "./ButtonMain";
 import Card from "./Card";
-import Section2 from "./Section2";
 import Footer from "./Footer";
 
 export default function Main() {
@@ -9,7 +9,7 @@ export default function Main() {
     <>
       <Section />
       <Card />
-      <Section2 />
+      <Section />
       <Footer />
     </>
   );

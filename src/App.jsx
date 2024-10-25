@@ -6,7 +6,7 @@ import Main from "./components/Main";
 export default function App() {
   return (
     <>
-      <body className="container-2xl mx-auto">
+      <div className="container-2xl mx-auto">
         <nav>
           <NavBar />
         </nav>
@@ -14,7 +14,7 @@ export default function App() {
           <Main />
         </main>
         <footer></footer>
-      </body>
+      </div>
     </>
   );
 }

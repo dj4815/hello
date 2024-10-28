@@ -12,7 +12,7 @@ export default function Section({
   image,
 }) {
   return (
-    <div className="container-2xl bg-slate-50 px-8 sm:px-32 3xl:px-96 2xl:mx-48 py-16 lg:py-32">
+    <div className="container-2xl bg-slate-50 px-4 sm:px-32 3xl:px-96 2xl:mx-48 py-16 lg:py-32">
       <Heading2 text={heading} />
       <Image image={image} />
       <Paragraph text={paragraph} paragraphColor={paragraphColor} />

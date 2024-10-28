@@ -15,6 +15,7 @@ export default function Main() {
       />
       <Card
         heading="I am Card."
+        headingColor="secondary"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus
         voluptatibus provident illum eaque? Possimus atque ea quas cupiditate
@@ -22,6 +23,7 @@ export default function Main() {
         adipisicing elit. Repellat libero rerum voluptatum dicta, harum saepe
         dolorem cupiditate officia nesciunt optio sunt assumenda voluptatibus
         eum? Inventore, maxime! Delectus odio placeat fuga."
+        paragraphColor="secondary"
       />
       <Section
         image="./assets/black-and-white-buildings.jpg"

@@ -1,3 +1,7 @@
-export default function Heading2({ text }) {
-  return <h2 className="text-4xl font-bold mb-8">{text}</h2>;
+export default function Heading2({ text, headingColor = "primary" }) {
+      const styles = {
+        primary: "text-4xl font-bold text-black mb-4",
+        secondary: "text-4xl font-bold text-white mb-4"
+      };
+  return <h2 className={styles[headingColor]}>{text}</h2>;
 }

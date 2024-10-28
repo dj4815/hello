@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="container-2xl text-center text-lg bg-white p-16 border-t-2 2xl:mt-12">
+    <div className="container-2xl text-center text-lg bg-white p-12 border-t-2 2xl:mt-12">
       <p>Made with React and Tailwind CSS</p>
       <p>
         <a

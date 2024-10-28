@@ -8,7 +8,7 @@ export default function Card({
 }) {
   return (
     <>
-      <div className="container-2xl bg-blue-600 px-8 py-12 sm:p-32 mx-4 my-24 lg:mx-48 xl:mx-96">
+      <div className="container-2xl bg-blue-700 px-8 py-12 sm:p-32 mx-4 my-24 lg:mx-48 xl:mx-96">
         <Heading2 text={heading} headingColor={headingColor} />
         <Paragraph text={paragraph} paragraphColor={paragraphColor} />
       </div>

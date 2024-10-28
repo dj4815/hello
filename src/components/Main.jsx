@@ -24,6 +24,7 @@ export default function Main() {
         eum? Inventore, maxime! Delectus odio placeat fuga."
       />
       <Section
+        image="./assets/black-and-white-buildings.jpg"
         heading="I am Section Two."
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus

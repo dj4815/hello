@@ -9,7 +9,7 @@ export default function Section({
   buttonVariant,
 }) {
   return (
-    <div className="container-2xl bg-slate-50 px-12 sm:px-32 3xl:px-96 2xl:mx-72 py-24 lg:py-48">
+    <div className="container-2xl bg-slate-50 px-8 sm:px-32 3xl:px-96 2xl:mx-72 py-24 lg:py-48">
       <Heading2 text={heading} />
       <Paragraph text={paragraph} />
       <Button text={buttonText} variant={buttonVariant} />

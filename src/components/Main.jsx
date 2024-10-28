@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <>
       <Section
-        image="./src/assets/star-trails.jpg"
+        image="src/assets/star-trails.jpg"
         heading="I am Section One."
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus

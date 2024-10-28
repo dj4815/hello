@@ -1,3 +1,3 @@
 export default function Paragraph({ text }) {
-    return <p>{text}</p>
+    return <p className="text-lg">{text}</p>
 }

@@ -1,6 +1,6 @@
 export default function Button({ text, variant = "primary" }) {
   const baseStyles =
-    "relative overflow-hidden rounded-full text-lg font-medium px-4 py-2 mt-8 transition duration-500";
+    "relative overflow-hidden rounded-full text-lg font-medium py-4 md:px-4 md:py-2 mt-8 transition duration-500 w-full md:w-auto";
 
   const styles = {
     primary: `${baseStyles} bg-blue-700 text-white hover:text-white`,

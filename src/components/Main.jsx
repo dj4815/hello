@@ -10,6 +10,7 @@ export default function Main() {
     <>
       <Section
         image="./assets/blue-waves.jpg"
+        imageTitle="Welcome"
         heading="I am Section One."
         paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cumque laboriosam ducimus facilis, dicta, omnis sit ipsa beatae eius ullam, distinctio deleniti architecto autem sed in fugit tempora voluptate doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem distinctio nisi fuga provident, ipsam blanditiis, totam consectetur, repellat dolorum nemo iste possimus sint fugit quas harum quia. Asperiores, voluptas."
         // heading="Hello there!"

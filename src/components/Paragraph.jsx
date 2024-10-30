@@ -1,7 +1,7 @@
 export default function Paragraph({ text, paragraphColor = "primary" }) {
   const styles = {
-    primary: "text-lg text-black",
-    secondary: "text-lg text-white",
+    primary: "text-md text-black",
+    secondary: "text-md text-white",
   };
 
   return <p className={styles[paragraphColor]}>{text}</p>;

@@ -9,7 +9,9 @@ export default function Section({
   buttonText,
   buttonVariant,
   image,
+  imageTitle,
   noTopPadding = false,
+
 }) {
   return (
     <div
@@ -19,7 +21,7 @@ export default function Section({
     >
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-4">
         <div className="flex justify-center lg:justify-end">
-          <Image image={image} />
+          <Image image={image} imageTitle={imageTitle} />
         </div>
         <div className="lg:ml-4 lg:px-0 px-4 flex flex-col items-start justify-center text-left">
           <Heading2 text={heading} />

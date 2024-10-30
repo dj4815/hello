@@ -8,9 +8,11 @@ export default function Card({
   bgColor,
 }) {
   return (
-    <div className={`${bgColor} container-2xl px-8 py-12 sm:p-32 mx-4 my-16 lg:mx-48 xl:mx-96 rounded-xl`}>
-        <Heading2 text={heading} headingColor={headingColor} />
-        <Paragraph text={paragraph} paragraphColor={paragraphColor} />
-      </div>
+    <div
+      className={`${bgColor} container-2xl px-8 py-12 sm:p-32 mx-8 my-16 lg:mx-48 xl:mx-96 rounded-xl`}
+    >
+      <Heading2 text={heading} headingColor={headingColor} />
+      <Paragraph text={paragraph} paragraphColor={paragraphColor} />
+    </div>
   );
 }

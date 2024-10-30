@@ -4,6 +4,7 @@ import Image from "./Image";
 import Paragraph from "./Paragraph";
 export default function Section({
   heading,
+  headingStyle,
   paragraph,
   paragraphColor,
   buttonText,
@@ -24,7 +25,7 @@ export default function Section({
           <Image image={image} imageTitle={imageTitle} />
         </div>
         <div className="lg:ml-4 lg:px-0 px-4 flex flex-col items-start justify-center text-left">
-          <Heading2 text={heading} />
+          <Heading2 text={heading} style={headingStyle} />
           <Paragraph text={paragraph} paragraphColor={paragraphColor} />
           <Button text={buttonText} variant={buttonVariant} />
         </div>

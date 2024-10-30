@@ -55,4 +55,4 @@ Error generating stack: `+i.message+`
         assumenda! Placeat, beatae dolor. Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Repellat libero rerum voluptatum dicta, harum saepe
         dolorem cupiditate officia nesciunt optio sunt assumenda voluptatibus
-        eum? Inventore, maxime! Delectus odio placeat fuga.`,paragraphColor:"secondary",bgColor:"bg-gradient-to-t from-black to-gray-500"}),P.jsx(Fd,{})]})}function $d(){return P.jsx(P.Fragment,{children:P.jsxs("div",{className:"container-2xl mx-auto",children:[P.jsx("nav",{children:P.jsx(Md,{})}),P.jsx("main",{children:P.jsx(Ud,{})}),P.jsx("footer",{})]})})}rc(document.getElementById("root")).render(P.jsx(Ai.StrictMode,{children:P.jsx($d,{})}));
+        eum? Inventore, maxime! Delectus odio placeat fuga.`,paragraphColor:"secondary",bgColor:"bg-gradient-to-b from-black to-gray-500"}),P.jsx(Fd,{})]})}function $d(){return P.jsx(P.Fragment,{children:P.jsxs("div",{className:"container-2xl mx-auto",children:[P.jsx("nav",{children:P.jsx(Md,{})}),P.jsx("main",{children:P.jsx(Ud,{})}),P.jsx("footer",{})]})})}rc(document.getElementById("root")).render(P.jsx(Ai.StrictMode,{children:P.jsx($d,{})}));

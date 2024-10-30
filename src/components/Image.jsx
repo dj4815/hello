@@ -1,4 +1,6 @@
-export default function Image({ image, imageTitle }) {
+import Heading1 from "./Heading1";
+
+export default function Image({ image, heading1Style, heading1 }) {
   return (
     <div className="relative w-full h-[500px] overflow-hidden mb-4">
       <img
@@ -6,9 +8,7 @@ export default function Image({ image, imageTitle }) {
         className="w-full h-full object-cover object-center lg:w-[200%] lg:object-left"
         alt="background"
       />
-      <h1 className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold mx-4">
-        {imageTitle}
-      </h1>
+          <Heading1 text={heading1} style={heading1Style} />
     </div>
   );
 }

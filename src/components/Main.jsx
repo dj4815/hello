@@ -56,7 +56,7 @@ export default function Main() {
         dolorem cupiditate officia nesciunt optio sunt assumenda voluptatibus
         eum? Inventore, maxime! Delectus odio placeat fuga."
         paragraphColor="secondary"
-        bgColor="bg-gradient-to-t from-black to-gray-500"
+        bgColor="bg-gradient-to-b from-black to-gray-500"
       />
       <Footer />
     </>

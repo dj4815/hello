@@ -5,13 +5,12 @@ export default function Card({
   headingColor,
   paragraph,
   paragraphColor,
+  bgColor,
 }) {
   return (
-    <>
-      <div className="container-2xl bg-gradient-to-b from-blue-700 to-cyan-500 px-8 py-12 sm:p-32 mx-4 my-24 lg:mx-48 xl:mx-96 rounded-xl">
+    <div className={`${bgColor} container-2xl px-8 py-12 sm:p-32 mx-4 my-16 lg:mx-48 xl:mx-96 rounded-xl`}>
         <Heading2 text={heading} headingColor={headingColor} />
         <Paragraph text={paragraph} paragraphColor={paragraphColor} />
       </div>
-    </>
   );
 }

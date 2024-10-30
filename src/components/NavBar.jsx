@@ -3,7 +3,7 @@ import NavButton from "./NavButton";
 export default function NavBar() {
   return (
     <>
-      <ul className="flex justify-around xl:px-80 py-4 xl:py-8 border-b-2">
+      <ul className="flex justify-around xl:px-96 py-4 border-b-2">
         <li>
           <NavButton text="Projects" />
         </li>

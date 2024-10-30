@@ -10,7 +10,7 @@ export default function Main() {
     <>
       <Section
         image="./assets/blue-waves.jpg"
-        heading1="Welcome! I Was Made With React and Tailwind CSS"
+        heading1="Welcome! Look At This Website I Made"
         heading1Style="secondary"
         heading2="I Am Section One."
         heading2Style="primary"

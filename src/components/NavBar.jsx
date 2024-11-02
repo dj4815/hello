@@ -1,17 +1,30 @@
+import { Link } from "react-router-dom";
 import NavButton from "./NavButton";
+
 
 export default function NavBar() {
   return (
     <>
       <ul className="flex justify-around xl:px-96 py-4 border-b-2">
         <li>
-          <NavButton text="Projects" />
+          <Link to="/hello/">
+            <NavButton text="Home" />
+          </Link>
         </li>
         <li>
-          <NavButton text="Resume" />
+          <Link to="/hello/projects">
+            <NavButton text="Projects" />
+          </Link>
         </li>
         <li>
-          <NavButton text="Contact" />
+          <Link to="/hello/resume">
+            <NavButton text="Resume" />
+          </Link>
+        </li>
+        <li>
+          <Link to="/hello/contact">
+            <NavButton text="Contact" />
+          </Link>
         </li>
       </ul>
     </>

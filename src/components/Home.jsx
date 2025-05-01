@@ -8,9 +8,9 @@ export default function Home() {
     <>
       <Section
         image="./assets/blue-waves.jpg"
-        heading1="Welcome! Look At This Website I Made"
+        heading1="Welcome! Look at this website I made."
         heading1Style="secondary"
-        heading2="I Am Section One."
+        heading2="I am section one."
         heading2Style="primary"
         titleStyle="secondary"
         paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cumque laboriosam ducimus facilis, dicta, omnis sit ipsa beatae eius ullam, distinctio deleniti architecto autem sed in fugit tempora voluptate doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem distinctio nisi fuga provident, ipsam blanditiis, totam consectetur, repellat dolorum nemo iste possimus sint fugit quas harum quia. Asperiores, voluptas."
@@ -22,7 +22,7 @@ export default function Home() {
       />
 
       <Card
-        heading="I Am Card."
+        heading="I am card."
         headingStyle="secondary"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus
@@ -36,9 +36,9 @@ export default function Home() {
       />
       <Section
         image="./assets/black-and-white-buildings.jpg"
-        heading1="Another Awesome h1 Because Why Not"
+        heading1="Another awesome h1 because why not."
         heading1Style="secondary"
-        heading2="I Am Section Two."
+        heading2="I am section two."
         heading2Style="primary"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus
@@ -52,7 +52,7 @@ export default function Home() {
         noTopPadding={true}
       />
       <Card
-        heading="I Am Card Two."
+        heading="I am card two."
         headingStyle="secondary"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore
         odio tempora dolorem voluptates reprehenderit, molestias doloribus

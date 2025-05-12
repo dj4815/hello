@@ -2,6 +2,8 @@ import Button from "./Button";
 import Heading2 from "./Heading2";
 import Image from "./Image";
 import Paragraph from "./Paragraph";
+import Content from "./Content";
+
 export default function Section({
   heading2,
   heading2Style,
@@ -13,6 +15,7 @@ export default function Section({
   buttonVariants = [],
   image,
   noTopPadding = false,
+  content,
 }) {
   return (
     <div
@@ -28,9 +31,10 @@ export default function Section({
             heading1Style={heading1Style}
           />
         </div>
-        <div className="lg:ml-4 lg:px-0 px-4 flex flex-col items-start justify-center text-left">
+        <div className="bg-white lg:ml-4 p-4 lg:p-8 flex flex-col items-start justify-center text-left">
           <Heading2 text={heading2} style={heading2Style} />
           <Paragraph text={paragraph} paragraphColor={paragraphColor} />
+          {content}
           <div className="flex flex-col lg:flex-row lg:gap-4 w-full">
             {/* Mapping over the buttonVariants array, giving each button a style and a text, as well as a key */}
             {buttonVariants.map((variant, index) => (
@@ -40,9 +44,7 @@ export default function Section({
                 variant={variant}
                 className="w-full lg:w-auto"
               />
-              
             ))}
-            
           </div>
         </div>
       </div>

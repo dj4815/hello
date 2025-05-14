@@ -4,9 +4,5 @@ export default function Content({ children, textColor = "primary" }) {
     secondary: "text-lg lg:text-base text-slate-50",
   };
 
-  return (
-    <div className={`bg-white p-8 rounded-md shadow-md ${styles[textColor]}`}>
-      {children}
-    </div>
-  );
+  return <div className={styles[textColor]}>{children}</div>;
 }

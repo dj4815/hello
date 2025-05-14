@@ -11,7 +11,7 @@ export default function Resume() {
         noTopPadding={true}
         content={
           <>
-            <h2 className="text-3xl font-bold mb-4">Dominik Jonat</h2>
+            <h2 className="text-4xl font-bold mb-4">Dominik Jonat</h2>
             <p className="mb-1">
               <strong>Email:</strong>{" "}
               <a
@@ -132,7 +132,9 @@ export default function Resume() {
                 <span className="font-semibold">
                   Student Assistant – Socio-Economic Panel (SOEP)
                 </span>
-                <span className="font-normal">10/2013 – 04/2015</span>
+                <span className="font-normal whitespace-nowrap">
+                  10/2013 – 04/2015
+                </span>
               </h4>
               <p>DIW Berlin</p>
               <ul className="list-disc pl-5 mt-1">
@@ -148,20 +150,20 @@ export default function Resume() {
             </h3>
 
             {/* Software Development */}
-            <div className="mb-4">
+            <div className="mb-4 w-full">
               <h4 className="flex justify-between">
                 <span className="font-semibold">Software Development</span>
-                <span className="font-normal">04/2024 – Present</span>
+                <span className="font-normal whitespace-nowrap">
+                  04/2024 – Present
+                </span>
               </h4>
               <p>IU International University</p>
             </div>
 
             {/* History/German Philology */}
-            <div className="mb-4">
+            <div className="mb-4 w-full">
               <h4 className="flex justify-between">
-                <span className="font-semibold">
-                  History/German
-                </span>
+                <span className="font-semibold">History/German</span>
                 <span className="font-normal whitespace-nowrap">
                   10/2016 – 09/2021
                 </span>
@@ -170,7 +172,7 @@ export default function Resume() {
             </div>
 
             {/* Law */}
-            <div className="mb-4">
+            <div className="mb-4 w-full">
               <h4 className="flex justify-between">
                 <span className="font-semibold">Law</span>
                 <span className="font-normal whitespace-nowrap">

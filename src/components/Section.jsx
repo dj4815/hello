@@ -2,20 +2,18 @@ import Button from "./Button";
 import Heading2 from "./Heading2";
 import Image from "./Image";
 import Paragraph from "./Paragraph";
-import Content from "./Content";
 
 export default function Section({
   heading2,
   heading2Style,
   heading1,
   heading1Style,
-  paragraph,
-  paragraphColor,
   buttonText = [],
   buttonVariants = [],
   image,
   noTopPadding = false,
   content,
+  children,
 }) {
   return (
     <div
@@ -33,7 +31,7 @@ export default function Section({
         </div>
         <div className="bg-white lg:ml-4 p-4 lg:p-8 flex flex-col items-start justify-center text-left">
           <Heading2 text={heading2} style={heading2Style} />
-          <Paragraph text={paragraph} paragraphColor={paragraphColor} />
+          <div className="space-y-4 text-gray-700">{children}</div>
           {content}
           <div className="flex flex-col lg:flex-row lg:gap-4 w-full">
             {/* Mapping over the buttonVariants array, giving each button a style and a text, as well as a key */}

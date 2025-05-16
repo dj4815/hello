@@ -202,6 +202,8 @@ export default function Resume() {
             </ul>
           </>
         }
+        buttonText={["Download Resume"]}
+        buttonVariants={["bluePrimary"]}
       />
     </>
   );

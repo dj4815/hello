@@ -8,14 +8,14 @@ export default function Home() {
     <>
       <Section
         image="./assets/blue-waves.jpg"
-        heading1="Welcome! Look at this website I made."
+        heading1="Welcome to my personal website."
         heading1Style="secondary"
-        heading2="I am section one."
+        heading2="Why don't you have a look at my resume?"
         heading2Style="primary"
         titleStyle="secondary"
-        paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cumque laboriosam ducimus facilis, dicta, omnis sit ipsa beatae eius ullam, distinctio deleniti architecto autem sed in fugit tempora voluptate doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem distinctio nisi fuga provident, ipsam blanditiis, totam consectetur, repellat dolorum nemo iste possimus sint fugit quas harum quia. Asperiores, voluptas."
-        buttonText={["Primary Button", "Secondary Button"]}
-        buttonVariants={["bluePrimary", "blueSecondary"]}
+        paragraph="I need to fill this with some text, and I don't want to use lorem ipsum so instead, I'm going to tell you how I made this website. I used React because I wanted to practice it and show off my skills, not because it was needed. Plain old HTML and CSS would have done the job. I am a big fan of TailwindCSS, so that's what I used. I can write CSS myself, but I prefer working within a set design system. It just looks more professional."
+        buttonText={["Download Resume"]}
+        buttonVariants={["bluePrimary"]}
         noTopPadding={true}
       />
 
@@ -34,7 +34,7 @@ export default function Home() {
       />
       <Section
         image="./assets/black-and-white-buildings.jpg"
-        heading1="Another awesome h1 because why not."
+        heading1="Another awesome heading because why not."
         heading1Style="secondary"
         heading2="I am section two."
         heading2Style="primary"

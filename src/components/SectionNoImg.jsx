@@ -1,12 +1,8 @@
 import Button from "./Button";
-import Image from "./Image";
 
 export default function Section({
-  heading1,
-  heading1Style,
   buttonText = [],
   buttonVariants = [],
-  image,
   noTopPadding = false,
   content,
   children,
@@ -18,14 +14,7 @@ export default function Section({
       }`}
     >
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 xl:grid-cols-2 lg:gap-4">
-        <div className="flex justify-center lg:justify-end">
-          <Image
-            image={image}
-            heading1={heading1}
-            heading1Style={heading1Style}
-          />
-        </div>
-        <div className="bg-white mt-0 lg:ml-4 pt-16 pb-32 pl-4 pr-4 lg:px-16 lg:py-16 flex flex-col items-start justify-center text-left rounded-bl-[200px] shadow-xl">
+        <div className="bg-white mt-0 lg:ml-4 pt-16 pb-32 pl-4 pr-4 lg:px-16 lg:py-16 flex flex-col items-start justify-center text-left rounded-tr-[200px] shadow-xl">
           <div className="space-y-4 text-black">{children}</div>
           {content}
           <div className="flex flex-col lg:flex-row lg:gap-4 w-full">

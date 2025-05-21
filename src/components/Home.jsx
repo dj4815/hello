@@ -14,23 +14,12 @@ export default function Home() {
         noTopPadding={true}
       >
         <p>
-          I need to fill this section with some text, and I don't want to use
-          lorem ipsum so instead, I'm going to tell you how I made this website.
-        </p>
-        <p>
-          I used React because I wanted to practice it and show off my skills,
-          not because it was needed. Plain old HTML and CSS would have done the
-          job.
-        </p>
-        <p>
-          I am a big fan of TailwindCSS, so that's what I used. I can write CSS
-          myself, but I prefer working within a set design system. It just looks
-          more professional.
-        </p>
-        <p>
-          I also learned how to deploy this website automatically on each git
-          push through GitHub actions, which was a valuable lesson and
-          surprisingly easy.
+          Hi, my name is Dominik and I'm a passionate aspiring web developer focused on building fast,
+          responsive, and accessible websites. With experience in HTML, CSS,
+          JavaScript, and React, I enjoy turning ideas into code and solving
+          real-world problems through intuitive design and development. Whether
+          it's a portfolio, an app, or a custom project, I aim to write clean
+          code and create smooth user experiences.
         </p>
       </Section>
     </>

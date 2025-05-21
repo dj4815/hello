@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "./Section";
-import SectionNoImg from "./SectionNoImg";
 
 export default function Home() {
   return (

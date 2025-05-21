@@ -9,8 +9,8 @@ export default function Home() {
         heading1="Welcome to my personal website."
         heading1Style="secondary"
         titleStyle="secondary"
-        buttonText={["Download Resume"]}
-        buttonVariants={["bluePrimary"]}
+        buttonText={["View Resume", "View Projects"]}
+        buttonVariants={["bluePrimary", "blueSecondary"]}
         noTopPadding={true}
         roundedCornerClass="rounded-br-[100px]"
       >
@@ -23,6 +23,7 @@ export default function Home() {
           code and create smooth user experiences.
         </p>
       </Section>
+
     </>
   );
 }

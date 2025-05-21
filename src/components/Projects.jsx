@@ -11,14 +11,16 @@ export default function Projects() {
         heading1Style="primaryBg"
       ></HeroImage>
 
+      {/* Selection Sort */}
       <Section
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
         roundedCornerClass="rounded-br-[100px]"
+        noTopPadding={true}
       >
         <h2 className="text-4xl font-bold mb-4">Selection Sort</h2>
-        <span className="bg-slate-800 text-white text-lg rounded-lg px-4 py-2 shadow">
+        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-800">
           C
         </span>
         <p>
@@ -38,18 +40,19 @@ export default function Projects() {
         </p>
       </Section>
 
+      {/* Indigo and Orange */}
       <Section
         image="./assets/indigo-and-orange.jpg"
-        buttonText={["View Code"]}
-        buttonVariants={["blackPrimary"]}
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#61DBFB] text-black text-lg rounded-lg px-4 py-2 mr-2 shadow">
+        <span className="bg-[#61DBFB] text-black text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           Tailwind CSS
         </span>
         <p>
@@ -67,6 +70,7 @@ export default function Projects() {
         </p>
       </Section>
 
+      {/* Calculator */}
       <Section
         image="./assets/calculator.jpg"
         buttonText={["View Code"]}
@@ -74,7 +78,7 @@ export default function Projects() {
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Calcu-Later</h2>
-        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow">
+        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           C
         </span>
         <p>
@@ -94,18 +98,19 @@ export default function Projects() {
         </ul>
       </Section>
 
+      {/* Random Pokemon */}
       <Section
         image="./assets/random-pokemon.jpg"
-        buttonText={["View Code"]}
-        buttonVariants={["blackPrimary"]}
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Pokémon Generator </h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow">
+        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           CSS
         </span>
 
@@ -126,17 +131,18 @@ export default function Projects() {
         </p>
       </Section>
 
+      {/* Color Boxes */}
       <Section
         image="./assets/color-boxes.jpg"
-        buttonText={["View Code"]}
-        buttonVariants={["blackPrimary"]}
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow">
+        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           CSS
         </span>
 

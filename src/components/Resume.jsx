@@ -66,7 +66,7 @@ export default function Resume() {
               <ul className="list-disc pl-5 mt-1">
                 <li>Development of international content strategy</li>
                 <li>
-                  Creation and maintenance of websites
+                  Creation and maintenance of landing pages
                   (WordPress/Elementor/Divi) and online stores
                   (Shopify/WooCommerce)
                 </li>
@@ -187,9 +187,9 @@ export default function Resume() {
               Certificates
             </h3>
             <ul className="list-disc pl-5 mb-4">
-              <li>CompTIA A+</li>
-              <li>CompTIA Network+</li>
-              <li>Duolingo CEFR C2 (English)</li>
+              <li>CompTIA A+ (2025)</li>
+              {/* <li>CompTIA Network+</li> */}
+              <li>Duolingo CEFR C2 English (2024)</li>
             </ul>
 
             <h3 className="text-2xl font-semibold mt-6 mb-2 border-b border-blue-500 pb-1">

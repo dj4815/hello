@@ -8,6 +8,8 @@ export default function Section({
   buttonVariants = [],
   image,
   noTopPadding = false,
+  reverse = false,
+  roundedCornerClass = "",
   content,
   children,
 }) {
@@ -17,15 +19,22 @@ export default function Section({
         noTopPadding ? "pt-0 xl:pt-16" : "pt-16"
       }`}
     >
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 xl:grid-cols-2 lg:gap-4">
-        <div className="flex justify-center lg:justify-end">
+      <div
+        className={`max-w-screen-xl mx-auto flex flex-col xl:flex-row ${
+          reverse ? "xl:flex-row-reverse" : ""
+        } lg:gap-4`}
+      >
+        <div className="flex-1 flex justify-center lg:justify-end">
           <Image
             image={image}
             heading1={heading1}
             heading1Style={heading1Style}
           />
         </div>
-        <div className="bg-white mt-0 lg:ml-4 pt-16 pb-32 pl-4 pr-4 lg:px-16 lg:py-16 flex flex-col items-start justify-center text-left rounded-bl-[200px] shadow-xl">
+        <div
+          className={`flex-1 bg-white mt-0 lg:ml-4 pt-16 pb-32 pl-4 pr-4 lg:px-16 lg:py-16 flex flex-col items-start justify-center text-left shadow-xl ${roundedCornerClass}`}
+        >
+          {" "}
           <div className="space-y-4 text-black">{children}</div>
           {content}
           <div className="flex flex-col lg:flex-row lg:gap-4 w-full">

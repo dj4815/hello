@@ -15,11 +15,10 @@ export default function Projects() {
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
+        roundedCornerClass="rounded-br-[150px]"
       >
-        <h2 className="text-4xl font-bold mb-4">
-          Selection Sort{" "}
-          <span className="bg-black text-white rounded-full px-4">C</span>
-        </h2>
+        <h2 className="text-4xl font-bold mb-4">Selection Sort </h2>
+        <span className="bg-black text-white text-xl font-semibold rounded-lg px-2">C</span>
         <p>
           This project features an implementation of the Selection Sort
           algorithm in C, applied to a randomly generated array of 50,000 unique
@@ -41,13 +40,13 @@ export default function Projects() {
         image="./assets/indigo-and-orange.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
+        reverse={true}
+        roundedCornerClass="rounded-bl-[150px]"
       >
-        <h2 className="text-4xl font-bold mb-4">
-          Website: Indigo and Orange{" "}
-          <span className="bg-black text-white rounded-full px-4">
-            React/Tailwind
-          </span>
-        </h2>
+        <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange </h2>
+        <span className="bg-cyan-400 text-white text-lg font-semibold rounded-lg px-4 py-2">
+          React + Tailwind
+        </span>
         <p>
           Indigo and Orange was my first real dive into web design using React
           and Tailwind CSS. The project started as an experiment to explore

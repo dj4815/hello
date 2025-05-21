@@ -9,6 +9,7 @@ export default function Resume() {
         heading1="Hi, my name is"
         heading1Style="primaryBg"
         noTopPadding={true}
+        roundedCornerClass="rounded-b-[150px]"
         content={
           <>
             <h2 className="text-4xl font-bold mb-4">Dominik Jonat</h2>

@@ -18,7 +18,7 @@ export default function Projects() {
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Selection Sort</h2>
-        <span className="bg-black text-white text-xl font-semibold rounded-lg px-2">
+        <span className="bg-slate-800 text-white text-lg rounded-lg px-4 py-2 shadow">
           C
         </span>
         <p>
@@ -45,11 +45,11 @@ export default function Projects() {
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
       >
-        <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange </h2>
-        <span className="bg-black text-[#61DBFB] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
+        <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
           React
         </span>
-        <span className="bg-black text-[#61DBFB] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
+        <span className="bg-[#61DBFB] text-black text-lg rounded-lg px-4 py-2 mr-2 shadow">
           Tailwind CSS
         </span>
         <p>
@@ -74,7 +74,7 @@ export default function Projects() {
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Calcu-Later</h2>
-        <span className="bg-black text-white text-xl font-semibold rounded-lg px-2">
+        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow">
           C
         </span>
         <p>
@@ -102,13 +102,10 @@ export default function Projects() {
         roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Pokémon Generator </h2>
-        <span className="bg-black text-[#61DBFB] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
           React
         </span>
-        {/* <span className="bg-black text-[#e34c26] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
-          HTML
-        </span> */}
-        <span className="bg-black text-[#264de4] text-lg font-semibold rounded-lg px-4 py-2">
+        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow">
           CSS
         </span>
 
@@ -133,17 +130,13 @@ export default function Projects() {
         image="./assets/color-boxes.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        reverse={true}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
-        <span className="bg-black text-[#61DBFB] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
+        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow">
           React
         </span>
-        {/* <span className="bg-black text-[#e34c26] text-lg font-semibold rounded-lg px-4 py-2 mr-2">
-          HTML
-        </span> */}
-        <span className="bg-black text-[#264de4] text-lg font-semibold rounded-lg px-4 py-2">
+        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow">
           CSS
         </span>
 

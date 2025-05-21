@@ -15,7 +15,7 @@ export default function Section({
 }) {
   return (
     <div
-      className={`bg-blue-50 py-16 ${noTopPadding ? "pt-0 xl:pt-16" : "pt-16"}`}
+      className={`bg-slate-50 py-16 ${noTopPadding ? "pt-0 xl:pt-16" : "pt-16"}`}
     >
       <div
         className={`max-w-screen-xl mx-auto flex flex-col xl:flex-row ${

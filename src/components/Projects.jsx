@@ -15,7 +15,7 @@ export default function Projects() {
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        roundedCornerClass="rounded-br-[150px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Selection Sort </h2>
         <span className="bg-black text-white text-xl font-semibold rounded-lg px-2">C</span>
@@ -41,7 +41,7 @@ export default function Projects() {
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[150px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange </h2>
         <span className="bg-cyan-400 text-white text-lg font-semibold rounded-lg px-4 py-2">

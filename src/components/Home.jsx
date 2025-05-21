@@ -12,7 +12,7 @@ export default function Home() {
         buttonText={["Download Resume"]}
         buttonVariants={["bluePrimary"]}
         noTopPadding={true}
-        roundedCornerClass="rounded-br-[150px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <p>
           Hi, my name is Dominik and I'm a passionate aspiring web developer focused on building fast,

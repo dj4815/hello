@@ -1,14 +1,10 @@
 import React from "react";
-import Section from "./Section";
-import Card from "./Card";
-import Footer from "./Footer";
-
-
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
     <>
-     
+      <ContactForm />
     </>
   );
 }

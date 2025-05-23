@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Section from "./Section";
 
 export default function Resume() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "//cdn.credly.com/assets/utilities/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <>
       <Section
@@ -13,24 +24,15 @@ export default function Resume() {
         content={
           <>
             <h2 className="text-4xl font-bold mb-4">Dominik Jonat</h2>
-            <p className="mb-1">
-              <strong>Email:</strong>{" "}
-              <a
-                href="mailto:djonat23@gmail.com"
-                className="text-blue-600 underline"
-              >
-                djonat23@gmail.com
-              </a>
+            {/* <p className="mb-1">
+              <strong>Email:</strong> djonat23 at gmail.com
             </p>
             <p className="mb-1">
-              <strong>Phone:</strong>{" "}
-              <a href="tel:017620998649" className="text-blue-600 underline">
-                017620998649
-              </a>
+              <strong>Phone:</strong> 0176/20998649
             </p>
             <p className="mb-1">
               <strong>Address:</strong> Paderborner Str. 8, 10709 Berlin
-            </p>
+            </p> */}
             <p className="mb-6">
               <strong>GitHub:</strong>{" "}
               <a
@@ -57,93 +59,61 @@ export default function Resume() {
             </h3>
 
             {/* Content Manager */}
-            <div className="mb-6">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">Content Manager</span>
-                <span className="font-normal">03/2022 – Present</span>
-              </h4>
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Content Manager</p>
+                <span className="bg-blue-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                  03/2022 – Present
+                </span>
+              </div>
               <p>Kiber Digital GmbH, Berlin</p>
-              <ul className="list-disc pl-5 mt-1">
-                <li>Development of international content strategy</li>
-                <li>
-                  Creation and maintenance of landing pages
-                  (WordPress/Elementor/Divi) and online stores
-                  (Shopify/WooCommerce)
-                </li>
-                <li>Technical/on-page/off-page SEO</li>
-                <li>
-                  Planning, execution and analysis of email marketing campaigns
-                  (Zapier)
-                </li>
-              </ul>
             </div>
 
             {/* Receptionist */}
-            <div className="mb-4">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">Receptionist</span>
-                <span className="font-normal">03/2018 – 02/2022</span>
-              </h4>
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Receptionist</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                  03/2018 – 02/2022
+                </span>
+              </div>
               <p>Meininger Oranienburger Straße GmbH, Berlin</p>
-              <ul className="list-disc pl-5 mt-1">
-                <li>
-                  Guest support, check-in/out, and administrative tasks in a
-                  fast-paced hospitality environment.
-                </li>
-              </ul>
             </div>
 
             {/* Student Assistant – FU Berlin */}
-            <div className="mb-4">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">
-                  Student Assistant – Language Center
+
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Student Assistant</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                  10/2016 – 02/2018
                 </span>
-                <span className="font-normal">10/2016 – 02/2018</span>
-              </h4>
+              </div>
               <p>Freie Universität Berlin</p>
-              <ul className="list-disc pl-5 mt-1">
-                <li>
-                  Administrative support for language courses and departmental
-                  organization.
-                </li>
-              </ul>
             </div>
 
             {/* Student Assistant – Viadrina */}
-            <div className="mb-4">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">
-                  Student Assistant – Language Center
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Student Assistant</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                  05/2015 – 09/2016
                 </span>
-                <span className="font-normal">05/2015 – 09/2016</span>
-              </h4>
+              </div>
               <p>Europa-Universität Viadrina, Frankfurt (Oder)</p>
-              <ul className="list-disc pl-5 mt-1">
-                <li>
-                  Assisted instructors and managed digital resources for
-                  language learning.
-                </li>
-              </ul>
             </div>
 
             {/* Student Assistant – SOEP */}
-            <div className="mb-6">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">
-                  Student Assistant – Socio-Economic Panel (SOEP)
-                </span>
-                <span className="font-normal whitespace-nowrap">
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Student Assistant</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
                   10/2013 – 04/2015
                 </span>
-              </h4>
-              <p>DIW Berlin</p>
-              <ul className="list-disc pl-5 mt-1">
-                <li>
-                  Supported survey data preparation and literature research for
-                  economic projects.
-                </li>
-              </ul>
+              </div>
+              <p>
+                Deutsches Institut für Wirtschaftsforschung e. V. (DIW Berlin)
+              </p>
             </div>
 
             <h3 className="text-2xl font-semibold mt-6 mb-2 border-b border-blue-500 pb-1">
@@ -151,46 +121,70 @@ export default function Resume() {
             </h3>
 
             {/* Software Development */}
-            <div className="mb-4 w-full">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">Software Development</span>
-                <span className="font-normal whitespace-nowrap">
+
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Software Development</p>
+                <span className="bg-blue-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
                   04/2024 – Present
                 </span>
-              </h4>
-              <p>IU International University</p>
+              </div>
+              <p>IU Internationale Universität, online</p>
             </div>
 
             {/* History/German Philology */}
-            <div className="mb-4 w-full">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">History/German</span>
-                <span className="font-normal whitespace-nowrap">
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">History/German</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
                   10/2016 – 09/2021
                 </span>
-              </h4>
+              </div>
               <p>Freie Universität Berlin</p>
             </div>
 
             {/* Law */}
-            <div className="mb-4 w-full">
-              <h4 className="flex justify-between">
-                <span className="font-semibold">Law</span>
-                <span className="font-normal whitespace-nowrap">
+            <div className="mb-6 w-full">
+              <div className="flex justify-between items-center">
+                <p className="font-semibold text-lg">Law</p>
+                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
                   10/2013 – 09/2016
                 </span>
-              </h4>
+              </div>
               <p>Europa-Universität Viadrina, Frankfurt (Oder)</p>
             </div>
 
             <h3 className="text-2xl font-semibold mt-6 mb-2 border-b border-blue-500 pb-1">
               Certificates
             </h3>
+
             <ul className="list-disc pl-5 mb-4">
               <li>CompTIA A+ (2025)</li>
-              {/* <li>CompTIA Network+</li> */}
               <li>Duolingo CEFR C2 English (2024)</li>
             </ul>
+
+            <div className="flex flex-wrap gap-4 my-6">
+              {/* Credly badge */}
+              <div
+                data-iframe-width="150"
+                data-iframe-height="270"
+                data-share-badge-id="389cf513-4e20-40a4-a842-50e3237f56ae"
+                data-share-badge-host="https://www.credly.com"
+              ></div>
+
+              {/* Duolingo certificate image */}
+              <a
+                href="https://certs.duolingo.com/271y2qbfl1vu1neh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./assets/duolingo-cert-sm.png"
+                  alt="Duolingo CEFR C2 English"
+                  className="w-auto h-[150px]"
+                />
+              </a>
+            </div>
 
             <h3 className="text-2xl font-semibold mt-6 mb-2 border-b border-blue-500 pb-1">
               Languages

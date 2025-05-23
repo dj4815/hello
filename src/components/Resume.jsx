@@ -13,6 +13,9 @@ export default function Resume() {
     };
   }, []);
 
+  const dateSpan =
+    "min-w-[150px] text-center text-white text-sm rounded-lg px-2 shadow shadow-slate-800";
+
   return (
     <>
       <Section
@@ -62,7 +65,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Content Manager</p>
-                <span className="bg-blue-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-blue-600`}>
                   03/2022 – Present
                 </span>
               </div>
@@ -73,7 +76,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Receptionist</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   03/2018 – 02/2022
                 </span>
               </div>
@@ -85,7 +88,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Student Assistant</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   10/2016 – 02/2018
                 </span>
               </div>
@@ -96,7 +99,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Student Assistant</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   05/2015 – 09/2016
                 </span>
               </div>
@@ -107,7 +110,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Student Assistant</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   10/2013 – 04/2015
                 </span>
               </div>
@@ -125,7 +128,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Software Development</p>
-                <span className="bg-blue-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-blue-600`}>
                   04/2024 – Present
                 </span>
               </div>
@@ -136,7 +139,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">History/German</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   10/2016 – 09/2021
                 </span>
               </div>
@@ -147,7 +150,7 @@ export default function Resume() {
             <div className="mb-6 w-full">
               <div className="flex justify-between items-center">
                 <p className="font-semibold text-lg">Law</p>
-                <span className="bg-slate-600 text-white text-sm rounded-lg px-4 shadow shadow-slate-800">
+                <span className={`${dateSpan} bg-slate-600`}>
                   10/2013 – 09/2016
                 </span>
               </div>
@@ -159,8 +162,14 @@ export default function Resume() {
             </h3>
 
             <ul className="list-disc pl-5 mb-4">
-              <li>CompTIA A+ (2025)</li>
-              <li>Duolingo CEFR C2 English (2024)</li>
+              <li>
+                CompTIA A+{" "}
+                <span className={`${dateSpan} bg-blue-600`}>2025</span>
+              </li>
+              <li>
+                Duolingo CEFR C2 English{" "}
+                <span className={`${dateSpan} bg-blue-600`}>2024</span>
+              </li>
             </ul>
 
             <div className="flex flex-wrap gap-4 my-6">

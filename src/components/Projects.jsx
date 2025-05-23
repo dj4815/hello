@@ -168,6 +168,42 @@ export default function Projects() {
           <li>Custom styling with CSS</li>
         </ul>
       </Section>
+
+      {/* Phonebook */}
+      <Section
+        image="./assets/phonebook.jpg"
+        buttonText={["View Code"]}
+        buttonVariants={["blackPrimary"]}
+        roundedCornerClass="rounded-bl-[100px]"
+        reverse={true}
+      >
+        <h2 className="text-4xl font-bold mb-4">Phonebook</h2>
+        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+          C
+        </span>
+        <p>
+          This simple C program allows users to add contact information to a CSV
+          file through the command line. It's a lightweight tool built using
+          only standard C libraries, making it easy to compile and run in any
+          basic C environment.
+        </p>
+        <p className="font-semibold">Key Features:</p>
+        <ul className="list-disc pl-5 mt-1">
+          <li>
+            Add entries: Users are prompted to enter a name and phone number,
+            which are then saved to a phonebook.csv file in a comma-separated
+            format.
+          </li>
+          <li>
+            Data persistence: All contacts are stored in a persistent,
+            human-readable CSV file.
+          </li>
+          <li>
+            Built with: Standard C (stdio.h, string.h), focusing on core
+            programming concepts like user input and file handling.
+          </li>
+        </ul>
+      </Section>
     </>
   );
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Button({ text, variant = "bluePrimary" }) {
   const baseStyles =
-    "relative flex items-center justify-center overflow-hidden rounded-full text-lg xl:text-base font-medium py-4 px-6 md:py-2 mt-8 w-full md:w-auto";
+    "relative flex items-center justify-center overflow-hidden rounded-full text-lg xl:text-base font-medium py-4 px-6 md:py-2 mt-4 w-full md:w-auto";
 
   const styles = {
     bluePrimary: `${baseStyles} bg-blue-700 text-white font-semibold 

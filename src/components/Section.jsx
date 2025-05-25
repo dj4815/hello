@@ -38,7 +38,7 @@ export default function Section({
 
           <div className="space-y-4 text-black">{children}</div>
           {content}
-          <div className="flex flex-col lg:flex-row lg:gap-4 w-full">
+          <div className="flex flex-col lg:flex-row lg:gap-4 mt-8 w-full">
             {/* Mapping over the buttonVariants array, giving each button a style and a text, as well as a key */}
             {buttonVariants.map((variant, index) => (
               <Button

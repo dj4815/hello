@@ -55,14 +55,14 @@ export default function Projects() {
         <span className="bg-[#61DBFB] text-black text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           Tailwind CSS
         </span>
-        <p>
+        <p className="text-lg">
           Indigo and Orange was my first real dive into web design using React
           and Tailwind CSS. The project started as an experiment to explore
           modern front-end tools and turned into a hands-on way to learn
           component-based development, responsive design, and styling with
           utility-first CSS.
         </p>
-        <p>
+        <p className="text-lg">
           While it's simple, it marks the beginning of my journey into building
           user interfaces from scratch and taught me a lot about structuring
           code, working with state, and making things look good on different
@@ -81,7 +81,7 @@ export default function Projects() {
         <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           C
         </span>
-        <p>
+        <p className="text-lg">
           Calcu-Later is a command-line calculator built in C that allows users
           to perform basic arithmetic operations: addition, subtraction,
           multiplication, and division. The app features a simple and
@@ -89,8 +89,8 @@ export default function Projects() {
           the user chooses to exit. It includes input validation for division by
           zero and provides user-friendly feedback.
         </p>
-        <p className="font-semibold">Key Features:</p>
-        <ul className="list-disc pl-5 mt-1">
+        <p className="font-semibold text-lg">Key Features:</p>
+        <ul className="list-disc pl-5 mt-1 text-lg">
           <li>Supports +, -, *, and / operations</li>
           <li>Interactive loop with repeat prompt</li>
           <li>Graceful handling of division by zero</li>
@@ -114,14 +114,14 @@ export default function Projects() {
           CSS
         </span>
 
-        <p>
+        <p className="text-lg">
           This React-based web application dynamically displays a random Pokémon
           using the official Pokémon artwork. Upon clicking the "Generate New
           Pokémon" button, the app fetches a new random Pokémon by generating a
           number between 1 and 1025, which corresponds to the Pokémon's ID in
           the PokéAPI asset repository.
         </p>
-        <p>
+        <p className="text-lg">
           The displayed Pokémon updates instantly without reloading the page,
           thanks to React's useState hook for dynamic rendering. The interface
           is styled with custom CSS, featuring a visually appealing card layout
@@ -146,21 +146,23 @@ export default function Projects() {
           CSS
         </span>
 
-        <p>
+        <p className="text-lg">
           This React application generates a 4×4 grid of interactive,
           color-changing boxes. Each ColorBox component is initialized with a
           random color from a predefined palette of 16 vibrant shades. When a
           user clicks on a box, it instantly changes to a new random color,
           demonstrating dynamic state updates using React’s useState hook.
         </p>
-        <p>
+        <p className="text-lg">
           The grid is created by the ColorBoxGrid component, which renders 16
           ColorBox elements. A reusable utility function ensures truly random
           color selection. The app's design is clean, visually engaging, and
           built with modular, maintainable code.
         </p>
-        <p>This project showcases core front-end skills including:</p>
-        <ul className="list-disc pl-5 mt-1">
+        <p className="text-lg">
+          This project showcases core front-end skills including:
+        </p>
+        <ul className="list-disc pl-5 mt-1 text-lg">
           <li>Functional React components</li>
           <li>State management with useState</li>
           <li>Event handling</li>
@@ -181,14 +183,14 @@ export default function Projects() {
         <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           C
         </span>
-        <p>
+        <p className="text-lg">
           This simple C program allows users to add contact information to a CSV
           file through the command line. It's a lightweight tool built using
           only standard C libraries, making it easy to compile and run in any
           basic C environment.
         </p>
-        <p className="font-semibold">Key Features:</p>
-        <ul className="list-disc pl-5 mt-1">
+        <p className="font-semibold text-lg">Key Features:</p>
+        <ul className="list-disc pl-5 mt-1 text-lg">
           <li>
             Add entries: Users are prompted to enter a name and phone number,
             which are then saved to a phonebook.csv file in a comma-separated

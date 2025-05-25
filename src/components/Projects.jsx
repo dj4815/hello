@@ -23,14 +23,14 @@ export default function Projects() {
         <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-800">
           C
         </span>
-        <p>
+        <p className="text-lg">
           This project features an implementation of the Selection Sort
           algorithm in C, applied to a randomly generated array of 50,000 unique
           integers. The algorithm repeatedly selects the smallest element from
           the unsorted portion of the array and swaps it with the element at the
           current position.
         </p>
-        <p>
+        <p className="text-lg">
           Although not the most efficient for large datasets due to its O(n²)
           time complexity, this implementation demonstrates a fundamental
           sorting technique often used for educational purposes. The project

@@ -35,7 +35,7 @@ export default function Section({
         <div
           className={`flex-1 bg-white mt-0 lg:ml-4 pt-16 pb-32 pl-4 pr-4 lg:px-16 lg:py-16 flex flex-col items-start justify-center text-left shadow-xl ${roundedCornerClass}`}
         >
-          {" "}
+
           <div className="space-y-4 text-black">{children}</div>
           {content}
           <div className="flex flex-col lg:flex-row lg:gap-4 w-full">

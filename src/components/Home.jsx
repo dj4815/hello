@@ -14,15 +14,15 @@ export default function Home() {
         noTopPadding={true}
         roundedCornerClass="rounded-br-[100px]"
       >
-        <img src="./assets/me.jpg" />
-        {/* <p>
+        {/* <img src="./assets/me.jpg" /> */}
+        <p className="text-lg">
           Hi, my name is Dominik and I'm a passionate aspiring web developer focused on building fast,
           responsive, and accessible websites. With experience in HTML, CSS,
           JavaScript, and React, I enjoy turning ideas into code and solving
           real-world problems through intuitive design and development. Whether
           it's a portfolio, an app, or a custom project, I aim to write clean
           code and create smooth user experiences.
-        </p> */}
+        </p>
       </Section>
 
     </>

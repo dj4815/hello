@@ -12,7 +12,7 @@ export default function Home() {
         buttonText={["View Resume", "View Projects"]}
         buttonVariants={["bluePrimary", "blueSecondary"]}
         noTopPadding={true}
-        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         {/* <img src="./assets/me.jpg" /> */}
         <p className="text-lg">

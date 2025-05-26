@@ -17,7 +17,7 @@ export default function Projects() {
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
         buttonLinks={["https://github.com/dj4815/selection-sort"]}
-        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
         noTopPadding={true}
       >
         <h2 className="text-4xl font-bold mb-4">Selection Sort</h2>
@@ -48,7 +48,7 @@ export default function Projects() {
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -78,7 +78,7 @@ export default function Projects() {
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
         buttonLinks={["https://github.com/dj4815/calc-u-later"]}
-        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Calc-U-Later</h2>
         <span className="bg-black text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
@@ -108,7 +108,7 @@ export default function Projects() {
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/random-pokemon"]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Pokémon Generator </h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -141,7 +141,7 @@ export default function Projects() {
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/color-boxes"]}
-        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -181,7 +181,7 @@ export default function Projects() {
         image="./assets/phonebook.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
         reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">Phonebook</h2>
@@ -218,7 +218,7 @@ export default function Projects() {
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/random-color-generator"]}
-        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Color Generator</h2>
         <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">

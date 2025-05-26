@@ -16,11 +16,12 @@ export default function Projects() {
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        roundedCornerClass="rounded-br-[100px]"
+        buttonLinks={["https://github.com/dj4815/selection-sort"]}
+        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
         noTopPadding={true}
       >
         <h2 className="text-4xl font-bold mb-4">Selection Sort</h2>
-        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-800">
+        <span className="bg-black text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-800">
           C
         </span>
         <p className="text-lg">
@@ -45,14 +46,15 @@ export default function Projects() {
         image="./assets/indigo-and-orange.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+        <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#61DBFB] text-black text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+        <span className="bg-[#61DBFB] text-black font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           Tailwind CSS
         </span>
         <p className="text-lg">
@@ -75,14 +77,15 @@ export default function Projects() {
         image="./assets/calculator.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        roundedCornerClass="rounded-br-[100px]"
+        buttonLinks={["https://github.com/dj4815/calc-u-later"]}
+        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
       >
-        <h2 className="text-4xl font-bold mb-4">Calcu-Later</h2>
-        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+        <h2 className="text-4xl font-bold mb-4">Calc-U-Later</h2>
+        <span className="bg-black text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           C
         </span>
         <p className="text-lg">
-          Calcu-Later is a command-line calculator built in C that allows users
+          Calc-U-Later is a command-line calculator built in C that allows users
           to perform basic arithmetic operations: addition, subtraction,
           multiplication, and division. The app features a simple and
           interactive loop-based interface, enabling repeated calculations until
@@ -103,14 +106,15 @@ export default function Projects() {
         image="./assets/random-pokemon.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={["https://github.com/dj4815/random-pokemon"]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Pokémon Generator </h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+        <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           CSS
         </span>
 
@@ -136,13 +140,14 @@ export default function Projects() {
         image="./assets/color-boxes.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        roundedCornerClass="rounded-br-[100px]"
+        buttonLinks={["https://github.com/dj4815/color-boxes"]}
+        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
-        <span className="bg-slate-900 text-[#61DBFB] text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+        <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
           React
         </span>
-        <span className="bg-[#264de4] text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           CSS
         </span>
 
@@ -176,11 +181,11 @@ export default function Projects() {
         image="./assets/phonebook.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-bl-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
         reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">Phonebook</h2>
-        <span className="bg-slate-900 text-white text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+        <span className="bg-black text-white font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
           C
         </span>
         <p className="text-lg">
@@ -203,6 +208,45 @@ export default function Projects() {
           <li>
             Built with: Standard C (stdio.h, string.h), focusing on core
             programming concepts like user input and file handling.
+          </li>
+        </ul>
+      </Section>
+
+      {/* Random Color Generator */}
+      <Section
+        image="./assets/random-color-generator.jpg"
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={["https://github.com/dj4815/random-color-generator"]}
+        roundedCornerClass="rounded-br-[100px] xl:rounded-tr-[100px] xl:rounded-tl-[100px]"
+      >
+        <h2 className="text-4xl font-bold mb-4">Random Color Generator</h2>
+        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          HTML
+        </span>
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          CSS
+        </span>
+        <span className="bg-[#f0db4f] text-[#323330] font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+          JS
+        </span>
+
+        <p className="text-lg">
+          This is a simple JavaScript project that demonstrates dynamic DOM
+          manipulation and event handling in a visually engaging way. With a
+          single button click, the background color of the webpage changes to a
+          randomly generated RGB color, which is also displayed in real-time as
+          text.
+        </p>
+        <p className="font-semibold text-lg">Key Features:</p>
+        <ul className="list-disc pl-5 mt-1 text-lg">
+          <li>Generates a new random RGB color on each button click.</li>
+          <li>
+            Updates both the background and on-screen text to reflect the
+            current color.
+          </li>
+          <li>
+            Responsive and accessible layout using semantic HTML and modern CSS.
           </li>
         </ul>
       </Section>

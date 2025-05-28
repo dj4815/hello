@@ -101,7 +101,7 @@ export default function Projects() {
         </ul>
       </Section>
 
-      {/* Random Pokemon */}
+      {/* Pokedex */}
       <Section
         image="./assets/random-pokemon.jpg"
         buttonText={["View Code", "Live Demo"]}
@@ -119,11 +119,12 @@ export default function Projects() {
         </span>
 
         <p className="text-lg">
-          This React-based web application dynamically displays a random Pokémon
-          using the official Pokémon artwork. Upon clicking the "Generate New
-          Pokémon" button, the app fetches a new random Pokémon by generating a
-          number between 1 and 1025, which corresponds to the Pokémon's ID in
-          the PokéAPI asset repository.
+          This is a React-based web application I made for my son, who is a big
+          Pokémon fan. It dynamically displays a random Pokémon using the
+          official Pokémon artwork. Upon clicking the "Generate New Pokémon"
+          button, the app fetches a new random Pokémon by generating a number
+          between 1 and 1025, which corresponds to the Pokémon's ID in the
+          PokéAPI asset repository.
         </p>
         <p className="text-lg">
           The displayed Pokémon updates instantly without reloading the page,
@@ -132,6 +133,9 @@ export default function Projects() {
           and responsive image display. This project demonstrates basic React
           state management, event handling, and integration of external image
           assets.
+        </p>
+        <p className="text-lg">
+          I plan on gradually turning this into a fully fledged Pokédex.
         </p>
       </Section>
 
@@ -248,6 +252,41 @@ export default function Projects() {
           <li>
             Responsive and accessible layout using semantic HTML and modern CSS.
           </li>
+        </ul>
+      </Section>
+
+      {/* Scorekeeper */}
+      <Section
+        image="./assets/scorekeeper.jpg"
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={["https://github.com/dj4815/scorekeeper"]}
+        roundedCornerClass="rounded-bl-[100px]"
+        reverse={true}
+      >
+        <h2 className="text-4xl font-bold mb-4">Scorekeeper</h2>
+        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          HTML
+        </span>
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          CSS
+        </span>
+        <span className="bg-[#f0db4f] text-[#323330] font-semibold text-lg rounded-lg px-4 py-2 shadow shadow-slate-700">
+          JS
+        </span>
+
+        <p className="text-lg">
+          This is a simple JavaScript project that demonstrates dynamic DOM
+          manipulation and event handling in a visually engaging way. With a
+          single button click, the background color of the webpage changes to a
+          randomly generated RGB color, which is also displayed in real-time as
+          text.
+        </p>
+        <p className="font-semibold text-lg">Key Features:</p>
+        <ul className="list-disc pl-5 mt-1 text-lg">
+          <li>Real-time score updates for two players.</li>
+          <li>Reset functionality to start a new game instantly.</li>
+          <li>Clean, minimal interface with intuitive interaction.</li>
         </ul>
       </Section>
     </>

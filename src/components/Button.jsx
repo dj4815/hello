@@ -14,7 +14,7 @@ export default function Button({ text, variant = "bluePrimary" }) {
               active:bg-blue-200 active:text-blue-900 
               hover:shadow-md active:shadow-sm 
               transition-all duration-300 ease-in-out`,
-    blackPrimary: `${baseStyles} bg-black border-2 border-black text-white font-semibold 
+    blackPrimary: `${baseStyles} bg-black text-white font-semibold 
               hover:-translate-y-1 hover:shadow-xl hover:bg-neutral-800 
               active:translate-y-0 active:shadow-md transition-all duration-300`,
     blackSecondary: `${baseStyles} bg-white border border-neutral-800 text-neutral-900 font-semibold 

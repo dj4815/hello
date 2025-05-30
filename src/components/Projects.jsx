@@ -15,7 +15,7 @@ export default function Projects() {
       <Section
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
-        buttonVariants={["bluePrimary"]}
+        buttonVariants={["blackPrimary"]}
         buttonLinks={["https://github.com/dj4815/selection-sort"]}
         roundedCornerClass="rounded-br-[100px]"
         noTopPadding={true}
@@ -45,7 +45,7 @@ export default function Projects() {
       <Section
         image="./assets/indigo-and-orange.jpg"
         buttonText={["View Code", "Live Demo"]}
-        buttonVariants={["bluePrimary", "blueSecondary"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
@@ -76,7 +76,7 @@ export default function Projects() {
       <Section
         image="./assets/calculator.jpg"
         buttonText={["View Code"]}
-        buttonVariants={["bluePrimary"]}
+        buttonVariants={["blackPrimary"]}
         buttonLinks={["https://github.com/dj4815/calc-u-later"]}
         roundedCornerClass="rounded-br-[100px]"
       >
@@ -105,7 +105,7 @@ export default function Projects() {
       <Section
         image="./assets/random-pokemon.jpg"
         buttonText={["View Code", "Live Demo"]}
-        buttonVariants={["bluePrimary", "blueSecondary"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/random-pokemon", "https://dj4815.github.io/random-pokemon/"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"

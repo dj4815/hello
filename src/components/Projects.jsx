@@ -15,7 +15,7 @@ export default function Projects() {
       <Section
         image="./assets/selection-sort.jpg"
         buttonText={["View Code"]}
-        buttonVariants={["blackPrimary"]}
+        buttonVariants={["bluePrimary"]}
         buttonLinks={["https://github.com/dj4815/selection-sort"]}
         roundedCornerClass="rounded-br-[100px]"
         noTopPadding={true}
@@ -45,7 +45,7 @@ export default function Projects() {
       <Section
         image="./assets/indigo-and-orange.jpg"
         buttonText={["View Code", "Live Demo"]}
-        buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonVariants={["bluePrimary", "blueSecondary"]}
         buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
@@ -76,7 +76,7 @@ export default function Projects() {
       <Section
         image="./assets/calculator.jpg"
         buttonText={["View Code"]}
-        buttonVariants={["blackPrimary"]}
+        buttonVariants={["bluePrimary"]}
         buttonLinks={["https://github.com/dj4815/calc-u-later"]}
         roundedCornerClass="rounded-br-[100px]"
       >
@@ -105,8 +105,8 @@ export default function Projects() {
       <Section
         image="./assets/random-pokemon.jpg"
         buttonText={["View Code", "Live Demo"]}
-        buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/random-pokemon"]}
+        buttonVariants={["bluePrimary", "blueSecondary"]}
+        buttonLinks={["https://github.com/dj4815/random-pokemon", "https://dj4815.github.io/random-pokemon/"]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
       >
@@ -144,7 +144,7 @@ export default function Projects() {
         image="./assets/color-boxes.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/color-boxes"]}
+        buttonLinks={["https://github.com/dj4815/color-boxes", "https://dj4815.github.io/color-boxes/"]}
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>

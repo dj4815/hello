@@ -10,12 +10,12 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] min-h-screen container-2xl mx-auto">
+    <div className="container-2xl mx-auto">
       <Router>
         <nav>
           <NavBar />
         </nav>
-        <main className="bg-slate-100">
+        <main>
           <Routes>
             <Route path="/hello" element={<Home />} />
             <Route path="/hello/projects" element={<Projects />} />

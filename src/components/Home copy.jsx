@@ -22,7 +22,7 @@ export default function Home() {
           into code and solving real-world problems through intuitive design and
           development. Whether it's a portfolio, an app, or a custom project, I
           aim to write clean code and create smooth user experiences.
-        </p>     
+        </p>
       </Section>
     </>
   );

@@ -16,7 +16,7 @@ export default function Section({
 }) {
   return (
     <div
-      className={`bg-slate-100 py-16 ${
+      className={`py-16 ${
         noTopPadding ? "pt-0 xl:pt-16" : "pt-16"
       }`}
     >
@@ -28,7 +28,7 @@ export default function Section({
           } w-full`}
         >
           {/* Image Section */}
-          <div className="flex-1 bg-white flex justify-center items-center">
+          <div className="flex-1 flex justify-center items-center">
             <Image
               image={image}
               heading1={heading1}

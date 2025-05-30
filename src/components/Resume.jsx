@@ -132,7 +132,7 @@ export default function Resume() {
                   04/2024 – Present
                 </span>
               </div>
-              <p>IU Internationale Universität, online</p>
+              <p>IU Internationale Hochschule</p>
             </div>
 
             {/* History/German Philology */}

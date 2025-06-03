@@ -52,9 +52,8 @@ export default function Resume() {
               Technical Skills
             </h3>
             <p className="mb-4">
-              Astro, Bootstrap, C, CSS, Divi, Elementor, Git, HTML, JavaScript,
-              Jira, React, Shopify, Tailwind CSS, Visual Studio Code, Vite,
-              WordPress, Webflow
+              HTML, CSS, JavaScript, Tailwind CSS, Vite, React, C, WordPress,
+              Elementor, Divi, Webflow, Visual Studio Code, Git, GitHub
             </p>
 
             <h3 className="text-2xl font-semibold mt-6 mb-2 border-b border-blue-500 pb-1">
@@ -201,8 +200,8 @@ export default function Resume() {
             <ul className="list-disc pl-5">
               <li>German (Native)</li>
               <li>English (C2)</li>
-              <li>French (Basic knowledge)</li>
-              <li>Polish (Basic knowledge)</li>
+              <li>French (Basic)</li>
+              <li>Polish (Basic)</li>
             </ul>
           </>
         }

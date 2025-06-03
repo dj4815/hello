@@ -106,7 +106,10 @@ export default function Projects() {
         image="./assets/random-pokemon.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/random-pokemon", "https://dj4815.github.io/random-pokemon/"]}
+        buttonLinks={[
+          "https://github.com/dj4815/random-pokemon",
+          "https://dj4815.github.io/random-pokemon/",
+        ]}
         reverse={true}
         roundedCornerClass="rounded-bl-[100px]"
       >
@@ -144,7 +147,10 @@ export default function Projects() {
         image="./assets/color-boxes.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/color-boxes", "https://dj4815.github.io/color-boxes/"]}
+        buttonLinks={[
+          "https://github.com/dj4815/color-boxes",
+          "https://dj4815.github.io/color-boxes/",
+        ]}
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
@@ -185,6 +191,7 @@ export default function Projects() {
         image="./assets/phonebook.jpg"
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
+        buttonLinks={["https://github.com/dj4815/phonebook"]}
         roundedCornerClass="rounded-bl-[100px]"
         reverse={true}
       >

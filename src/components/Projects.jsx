@@ -228,7 +228,10 @@ export default function Projects() {
         image="./assets/random-color-generator.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/random-color-generator"]}
+        buttonLinks={[
+          "https://github.com/dj4815/random-color-generator",
+          "https://dj4815.github.io/random-color-generator/",
+        ]}
         roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Color Generator</h2>
@@ -267,7 +270,10 @@ export default function Projects() {
         image="./assets/scorekeeper.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/scorekeeper"]}
+        buttonLinks={[
+          "https://github.com/dj4815/scorekeeper",
+          "https://dj4815.github.io/scorekeeper/",
+        ]}
         roundedCornerClass="rounded-bl-[100px]"
         reverse={true}
       >

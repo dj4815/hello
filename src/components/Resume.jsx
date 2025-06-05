@@ -207,7 +207,7 @@ export default function Resume() {
         }
         buttonText={["Download Resume"]}
         buttonVariants={["bluePrimary"]}
-        buttonLinks={["/files/Dominik-Jonat-s.pdf"]}
+        buttonLinks={["./files/Dominik-Jonat-w-en.pdf"]}
       />
     </>
   );

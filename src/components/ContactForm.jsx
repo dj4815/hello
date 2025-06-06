@@ -42,7 +42,7 @@ export default function ContactForm() {
               active:bg-blue-800 active:translate-y-0 active:shadow-md 
               transition-all duration-300 ease-in-out"
           >
-            Submit
+            Under Construction
           </button>
         </div>
       </div>

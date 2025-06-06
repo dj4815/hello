@@ -103,7 +103,7 @@ export default function Projects() {
 
       {/* Pokedex */}
       <Section
-        image="./assets/random-pokemon.jpg"
+        image="./assets/random-pokemon.png"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={[
@@ -144,7 +144,7 @@ export default function Projects() {
 
       {/* Color Boxes */}
       <Section
-        image="./assets/color-boxes.jpg"
+        image="./assets/color-boxes.png"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={[
@@ -225,7 +225,7 @@ export default function Projects() {
 
       {/* Random Color Generator */}
       <Section
-        image="./assets/random-color-generator.jpg"
+        image="./assets/random-color-generator.png"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={[
@@ -267,7 +267,7 @@ export default function Projects() {
 
       {/* Scorekeeper */}
       <Section
-        image="./assets/scorekeeper.jpg"
+        image="./assets/scorekeeper.png"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={[

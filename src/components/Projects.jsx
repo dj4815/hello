@@ -302,6 +302,35 @@ export default function Projects() {
           <li>Clean, minimal interface with intuitive interaction.</li>
         </ul>
       </Section>
+
+      {/* Blog Preview Card */}
+      <Section
+        image="./assets/blog-preview-card.png"
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={[
+          "https://github.com/dj4815/blog-preview-card",
+          "https://dj4815.github.io/blog-preview-card/",
+        ]}
+        roundedCornerClass="rounded-br-[100px]"
+      >
+        <h2 className="text-4xl font-bold mb-4">Blog Preview Card</h2>
+        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          HTML
+        </span>
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          CSS
+        </span>
+
+        <p className="text-lg">
+          A sleek and responsive blog preview card built with pure HTML and CSS,
+          faithfully recreated according to a provided Figma design. It features
+          a clean layout with an engaging header image, concise text excerpt,
+          and a clear call-to-action button. The design adapts smoothly to
+          different screen sizes, showcasing modern styling techniques such as
+          flexbox, custom fonts, and shadow effects to enhance user interaction.
+        </p>
+      </Section>
     </>
   );
 }

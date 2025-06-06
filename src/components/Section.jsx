@@ -19,7 +19,7 @@ export default function Section({
       <div className="max-w-screen-xl mx-auto">
         {/* Combined wrapper for image and text */}
         <div
-          className={`bg-white flex flex-col xl:flex-row shadow-xl ${roundedCornerClass} ${
+          className={`bg-white flex flex-col xl:flex-row shadow-xl overflow-hidden ${roundedCornerClass} ${
             reverse ? "xl:flex-row-reverse" : ""
           } w-full`}
         >

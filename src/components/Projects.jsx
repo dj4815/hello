@@ -41,34 +41,32 @@ export default function Projects() {
         </p>
       </Section>
 
-      {/* Indigo and Orange */}
+      {/* Blog Preview Card */}
       <Section
-        image="./assets/indigo-and-orange.jpg"
+        image="./assets/blog-preview-card.png"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
-        reverse={true}
+        buttonLinks={[
+          "https://github.com/dj4815/blog-preview-card",
+          "https://dj4815.github.io/blog-preview-card/",
+        ]}
         roundedCornerClass="rounded-bl-[100px]"
       >
-        <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
-        <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
-          React
+        <h2 className="text-4xl font-bold mb-4">Blog Preview Card</h2>
+        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          HTML
         </span>
-        <span className="bg-[#61DBFB] text-black font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
-          Tailwind CSS
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          CSS
         </span>
+
         <p className="text-lg">
-          Indigo and Orange was my first real dive into web design using React
-          and Tailwind CSS. The project started as an experiment to explore
-          modern front-end tools and turned into a hands-on way to learn
-          component-based development, responsive design, and styling with
-          utility-first CSS.
-        </p>
-        <p className="text-lg">
-          While it's simple, it marks the beginning of my journey into building
-          user interfaces from scratch and taught me a lot about structuring
-          code, working with state, and making things look good on different
-          screen sizes.
+          A sleek and responsive blog preview card built with pure HTML and CSS,
+          faithfully recreated according to a provided Figma design. It features
+          a clean layout with an engaging header image, concise text excerpt,
+          and a clear call-to-action button. The design adapts smoothly to
+          different screen sizes, showcasing modern styling techniques such as
+          flexbox, custom fonts, and shadow effects to enhance user interaction.
         </p>
       </Section>
 
@@ -303,32 +301,34 @@ export default function Projects() {
         </ul>
       </Section>
 
-      {/* Blog Preview Card */}
+      {/* Indigo and Orange */}
       <Section
-        image="./assets/blog-preview-card.png"
+        image="./assets/indigo-and-orange.jpg"
         buttonText={["View Code", "Live Demo"]}
         buttonVariants={["blackPrimary", "blackSecondary"]}
-        buttonLinks={[
-          "https://github.com/dj4815/blog-preview-card",
-          "https://dj4815.github.io/blog-preview-card/",
-        ]}
+        buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
+        reverse={true}
         roundedCornerClass="rounded-br-[100px]"
       >
-        <h2 className="text-4xl font-bold mb-4">Blog Preview Card</h2>
-        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
-          HTML
+        <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
+        <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          React
         </span>
-        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
-          CSS
+        <span className="bg-[#61DBFB] text-black font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          Tailwind CSS
         </span>
-
         <p className="text-lg">
-          A sleek and responsive blog preview card built with pure HTML and CSS,
-          faithfully recreated according to a provided Figma design. It features
-          a clean layout with an engaging header image, concise text excerpt,
-          and a clear call-to-action button. The design adapts smoothly to
-          different screen sizes, showcasing modern styling techniques such as
-          flexbox, custom fonts, and shadow effects to enhance user interaction.
+          Indigo and Orange was my first real dive into web design using React
+          and Tailwind CSS. The project started as an experiment to explore
+          modern front-end tools and turned into a hands-on way to learn
+          component-based development, responsive design, and styling with
+          utility-first CSS.
+        </p>
+        <p className="text-lg">
+          While it's simple, it marks the beginning of my journey into building
+          user interfaces from scratch and taught me a lot about structuring
+          code, working with state, and making things look good on different
+          screen sizes.
         </p>
       </Section>
     </>

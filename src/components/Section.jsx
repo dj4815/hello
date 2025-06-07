@@ -38,7 +38,7 @@ export default function Section({
             {content}
             <div className="flex flex-col lg:flex-row lg:gap-4 mt-8 lg:mt-4 w-full">
               {buttonVariants.map((variant, index) => {
-                // download detector
+                // Download detector lol
                 const isDownload = buttonText[index]
                   ?.toLowerCase()
                   .includes("download");

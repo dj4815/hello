@@ -7,7 +7,7 @@ export default function Button({ text, variant = "bluePrimary" }) {
   const styles = {
     bluePrimary: `${baseStyles} bg-blue-700 text-white font-semibold 
               hover:bg-blue-600 hover:shadow-lg 
-              active:bg-blue-800 active:translate-y-0 active:shadow-md 
+              active:bg-blue-800 active:shadow-md 
               transition-all duration-300 ease-in-out`,
     blueSecondary: `${baseStyles} bg-slate-50 text-blue-700 border border-blue-700 font-semibold 
               hover:bg-blue-100 hover:text-blue-800 
@@ -15,8 +15,8 @@ export default function Button({ text, variant = "bluePrimary" }) {
               hover:shadow-md active:shadow-sm 
               transition-all duration-300 ease-in-out`,
     blackPrimary: `${baseStyles} bg-black text-white font-semibold 
-              hover:-translate-y-1 hover:shadow-xl hover:bg-neutral-800 
-              active:translate-y-0 active:shadow-md transition-all duration-300`,
+             hover:shadow-xl hover:bg-neutral-800 
+             active:shadow-md transition-all duration-300`,
     blackSecondary: `${baseStyles} bg-white border border-neutral-800 text-neutral-900 font-semibold 
               hover:bg-neutral-100 hover:text-black hover:shadow-md 
               active:bg-neutral-200 active:shadow-sm transition-all duration-300`,

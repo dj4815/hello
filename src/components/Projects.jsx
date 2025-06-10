@@ -119,10 +119,22 @@ export default function Projects() {
         </span>
 
         <p className="text-lg">
-          This is a responsive and visually clean QR Code Component, built as
-          part of a Frontend Mentor challenge. The goal of this project was to
-          practice fundamental HTML and CSS skills by recreating a simple card
-          layout.
+          This project is a clean and responsive QR code card, built as part of
+          a Frontend Mentor challenge to sharpen my foundational HTML and CSS
+          skills. The component features a centered layout using Flexbox, styled
+          with a modern aesthetic and a focus on simplicity and clarity.
+        </p>
+        <p className="text-lg">
+          I used semantic HTML to structure the content and applied custom CSS
+          to create a card with rounded corners, shadows, and smooth typography
+          using the Google Fonts API. The layout is fully responsive and
+          optimized for smaller screens, making it a great example of accessible
+          and mobile-friendly design.
+        </p>
+        <p className="text-lg">
+          This component helped me reinforce my understanding of layout
+          techniques, visual hierarchy, and the importance of clean,
+          maintainable code in front-end development.
         </p>
       </Section>
 

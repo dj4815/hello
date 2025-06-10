@@ -99,6 +99,33 @@ export default function Projects() {
         </ul>
       </Section>
 
+      {/* QR Code Component */}
+      <Section
+        image="./assets/qr-code-component.png"
+        buttonText={["View Code", "Live Demo"]}
+        buttonVariants={["blackPrimary", "blackSecondary"]}
+        buttonLinks={[
+          "https://github.com/dj4815/qr-code-component",
+          "https://dj4815.github.io/qr-code-component/",
+        ]}
+        roundedCornerClass="rounded-bl-[100px]"
+      >
+        <h2 className="text-4xl font-bold mb-4">QR Code Component</h2>
+        <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          HTML
+        </span>
+        <span className="bg-[#264de4] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
+          CSS
+        </span>
+
+        <p className="text-lg">
+          This is a responsive and visually clean QR Code Component, built as
+          part of a Frontend Mentor challenge. The goal of this project was to
+          practice fundamental HTML and CSS skills by recreating a simple card
+          layout.
+        </p>
+      </Section>
+
       {/* Pokedex */}
       <Section
         image="./assets/random-pokemon.png"
@@ -109,7 +136,7 @@ export default function Projects() {
           "https://dj4815.github.io/random-pokemon/",
         ]}
         reverse={true}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Pokémon Generator </h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -149,7 +176,7 @@ export default function Projects() {
           "https://github.com/dj4815/color-boxes",
           "https://dj4815.github.io/color-boxes/",
         ]}
-        roundedCornerClass="rounded-br-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Color Boxes</h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -190,7 +217,7 @@ export default function Projects() {
         buttonText={["View Code"]}
         buttonVariants={["blackPrimary"]}
         buttonLinks={["https://github.com/dj4815/phonebook"]}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
         reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">Phonebook</h2>
@@ -230,7 +257,7 @@ export default function Projects() {
           "https://github.com/dj4815/random-color-generator",
           "https://dj4815.github.io/random-color-generator/",
         ]}
-        roundedCornerClass="rounded-br-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Random Color Generator</h2>
         <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -272,7 +299,7 @@ export default function Projects() {
           "https://github.com/dj4815/scorekeeper",
           "https://dj4815.github.io/scorekeeper/",
         ]}
-        roundedCornerClass="rounded-bl-[100px]"
+        roundedCornerClass="rounded-br-[100px]"
         reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">Scorekeeper</h2>
@@ -308,7 +335,7 @@ export default function Projects() {
         buttonVariants={["blackPrimary", "blackSecondary"]}
         buttonLinks={["https://github.com/dj4815/indigo-and-orange"]}
         reverse={true}
-        roundedCornerClass="rounded-br-[100px]"
+        roundedCornerClass="rounded-bl-[100px]"
       >
         <h2 className="text-4xl font-bold mb-4">Website: Indigo and Orange</h2>
         <span className="bg-white text-[#0081A3] font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">

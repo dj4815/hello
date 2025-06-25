@@ -51,6 +51,7 @@ export default function Projects() {
           "https://dj4815.github.io/blog-preview-card/",
         ]}
         roundedCornerClass="rounded-bl-[100px]"
+        reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">Blog Preview Card</h2>
         <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
@@ -109,6 +110,7 @@ export default function Projects() {
           "https://dj4815.github.io/qr-code-component/",
         ]}
         roundedCornerClass="rounded-bl-[100px]"
+        reverse={true}
       >
         <h2 className="text-4xl font-bold mb-4">QR Code Component</h2>
         <span className="bg-[#e34c26] text-white font-semibold text-lg rounded-lg px-4 py-2 mr-2 shadow shadow-slate-700">
